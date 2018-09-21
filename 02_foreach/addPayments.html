@@ -4,8 +4,12 @@
 <script>
 
 // -----------------------------
-//    YOUR CODE: write callback 
+//    YOUR CODE: write callback
 // -----------------------------
+var payments = 0;
+var add = function(item){
+  payments += Number(item[9]);
+}
 
 chicago.data.forEach(add);
 
